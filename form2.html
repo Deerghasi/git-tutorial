@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Student Details</title>
+</head>
+<body>
+    <form action="">
+    <fieldset>
+        <legend>Personal Details</legend>
+        <label for="fname">First Name </label>
+        <input type="text"placeholder="Surname" id="fname" name="fname"><br><br>
+        <label for="mname">Second Name</label>
+        <input type="text" placeholder="Middle name" id="mname" name="mname"><br><br>
+        <label for="lname">Last Name</label>
+        <input type="text"placeholder=" Last name"id="lname" name="lname"><br><br>
+        <label for="email">Email</label>
+        <input type="email"placeholder="ex=syam@gmail.com" id="email" name="email"><br><br>
+        <label for="dob">DOB</label>
+        <input type="date"required id="dob" name="dob"><br><br>
+    </fieldset>
+    <fieldset>
+        <legend>Education Details</legend>
+        <label for="text">Depertment</label><br><br>
+        <input type="radio"id=ece name="dept">
+        <label for="ece">ece</label>
+        <input type="radio"id=cse name="dept">
+        <label for="cse">cse</label>
+        <input type="radio"id=civil name="dept">
+       <label for="civil">civil</label> 
+        <input type="radio"id=it name="dept">
+        <label for="it">it</label><br><br>
+        <label for="">YOG</label>
+        <input list="yog" id="yog" name="yog">
+        <datalist id="yog">
+            <option>2017</option>
+            <option>2018</option>
+            <option>2019</option>
+            <option>2020</option>
+            <option>2021</option>
+
+
+        </datalist><br><br>
+        <label for="">Skills</label><br><br>
+        <input type="checkbox" id="html" name="html">
+        <label for="html">Html</label><br><br>
+        <input type="checkbox" id="css" name="css">
+        <label for="css">CSS</label><br><br>
+        <input type="checkbox" id="javascript" name="javascript">
+        <label for="javascript">javascript</label><br><br>
+
+    </fieldset>
+        <button>Submit</button>
+    </form>
+    
+</body>
+</html>
